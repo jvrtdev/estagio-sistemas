@@ -16,7 +16,7 @@ export default function MainContent() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3, ease: "easeOut" }}
           >
-            IT'S TIME!
+            IT&apos;S TIME!
           </motion.h1>
           <motion.p
             className="font-light text-gray-900 font-sans text-xl sm:text-3xl md:text-4xl tracking-wide"
@@ -24,7 +24,7 @@ export default function MainContent() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.6, ease: "easeOut" }}
           >
-            THE NEW ROAD IT'S BEGINNING
+            THE NEW ROAD IT&apos;S BEGINNING
           </motion.p>
           <motion.p
             className="text-sm sm:text-normal max-w-sm md:text-xl mt-10  text-white md:max-w-lg"
