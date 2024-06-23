@@ -2,6 +2,8 @@
 import { MaxWidthWrapper } from "@/components/MaxWidthWrapper"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
+import Link from "next/link"
+import Modal from "./Modal"
 
 export default function MainContent() {
   return (
@@ -37,13 +39,9 @@ export default function MainContent() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 1, ease: "easeInOut", duration: 1 }}
+            className="flex flex-row-reverse items-center gap-2"
           >
-            <Button
-              type="button"
-              className="mt-4 bg-white text-gray-900 font-bold font-sans text-xl max-w-max duration-200"
-            >
-              JOIN US!
-            </Button>
+            <Modal />
           </motion.div>
         </div>
       </MaxWidthWrapper>
